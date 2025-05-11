@@ -1,0 +1,13 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/places/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-class {
+  width: 600px;
+  text-align: center;
+}

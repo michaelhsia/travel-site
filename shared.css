@@ -3,23 +3,10 @@ body {
   margin: 0;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-ul li {
-  padding: 20px;
 }
 
 #page-logo a {
@@ -30,4 +17,21 @@ ul li {
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  margin-left: 20px;
 }
